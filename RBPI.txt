@@ -1,0 +1,16 @@
+Juego de RaspBerry Pi:
+Ventajas:
+•	Es un producto netamente educativo, porque busca enseñar a cómo hacer música programando y compartiéndola a su vez, como se haría en una red social tradicional, pero con Git y GitHub.
+•	Tiene una instalación fácil y rápida en la computadora del usuario.
+•	Estará customizado con una interfaz agradable y fácil para su manejo.
+Flujo de trabajo de la versión Beta de Chocosfera:
+•	Desde el inicio de la aplicación, se tiene pensado desarrollar un ejecutable en el que pueda dar las explicaciones sobre lo que es el Sistema Operativo de Raspbian; entre ellas breve introducción de cómo se puede manejar el escritorio y cómo acceder a las funciones y configuraciones básicas (como red de internet, navegador, carpeta de documentos, etc) para comenzar el flujo de trabajo del usuario en el ambiente customizado de chocosfera.
+•	Una vez completadas las configuraciones, se indicará con ayuda del mismo instalador, cómo debe usarse el programa de Sonic Pi, procurando que el usuario complete como primer desafío la elaboración de la canción de los “pollitos dicen…”, enseñándole cómo guardarla en su escritorio.
+•	Posteriormente, el mismo instalador buscará indicarle al usuario cómo debe usar Git y GitHub, para que su canción sea vista en el mundo de la chocosfera, el usuario encontrará una pequeña animación donde verá un gran castillo y a Kaoka, quién será la que indicará dónde está la llave para que esa creación pueda ser vista por todos los choconautas de chocosfera.
+Esa animación debe terminar con la indicación de la llave “fork” en GitHub
+•	Cuando el instalador realice las indicaciones de cómo clonar el repositorio y el usuario lo descargue satisfactoriamente, podrá encontrar en su carpeta una serie de videos documentales sobre el Cacao y Chocolate Venezolano que una vez vistos por el usuario (el instalador debe indicar que tiene que hacerlo) será advertido de que debe colaborar con una pequeña historia, copiada en la “Pull Request” de cómo debería continuar el juego de chocosfera.
+Algunas observaciones importantes a considerar en el proceso de instalación del SO Raspbian en el Raspberry, es que se consume gran parte de la memoria de la tarejta SD de 16GB, por tanto no se estima un gran soporte para agregar el instalador sobre las explicaciones del juego y el de Sonic Pi, sugiriéndose la implementación de pequeños videos explicativos.
+Fuentes:
+•	Cómo programar en Sonic Pi https://www.youtube.com/watch?v=ixn6d4qSK5I
+•	Instalación de Sonic Pi para RaspBian https://github.com/samaaron/sonic-pi/blob/master/INSTALL-LINUX.md 
+•	Herramientas posibles para desarrollar el instalador https://www.xatakahome.com/trucos-y-bricolaje-smart/como-desarrollar-un-proyecto-con-raspberry-pi-o-arduino-facilmente-y-casi-sin-programar 
