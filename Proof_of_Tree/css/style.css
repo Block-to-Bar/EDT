@@ -1,0 +1,52 @@
+@import url("//fonts.googleapis.com/css?family=Bungee+Shade");
+
+body {
+  background-color: #ff9f63;
+  color: #300001;
+}
+
+h1 {
+  font-family: 'Bungee Shade';
+  color: #300001;
+  margin-top: 100px;
+  font-size: 50px;
+  text-align: center;
+@media screen and (max-width: 850px) {
+    font-size: 2em;
+}    
+@media screen and (max-width: 550px) {
+    font-size: 1.5em;
+    float: left;
+}
+}
+
+.mc_form {
+    margin-top: 150px;
+}  
+/********** 1) Load of TITLE *************
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #ff9f63;
+}
+/********** 1) Load of TITLE *************
+
+//********** 2) simple "from > to" */
+@keyframes move {
+  from {
+      bottom: 0%
+  }
+  to {
+      top: 100%
+  }
+}
+
+/* assign animation to ball element */
+.mc_from {
+  animation: move 10s ;
+}
+
