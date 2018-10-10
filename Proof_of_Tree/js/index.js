@@ -70,3 +70,4 @@ function blinkFunc() {
 
 
 timer1 = setInterval("textFunc()", 100); // Every 150 milliseconds
+

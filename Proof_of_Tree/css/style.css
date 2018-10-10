@@ -1,52 +1,224 @@
-@import url("//fonts.googleapis.com/css?family=Bungee+Shade");
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade");
 
-body {
-  background-color: #ff9f63;
-  color: #300001;
+
+#mc_embed_signup form {display:block;
+ position:relative; text-align:left;
+  padding:10px 0 10px 3%
+width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
 }
 
-h1 {
-  font-family: 'Bungee Shade';
-  color: #300001;
-  margin-top: 100px;
-  font-size: 50px;
+.mc_form {width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 62px 55px 65px 55px;
+
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+#mc_embed_signup h2 {font-weight:bold; padding:0;
+ margin:15px 0; 
+ font-size:1.4em;}
+#mc_embed_signup input {border: 1px solid #ABB0B2; 
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px; 
+  border-radius: 3px;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance: checkbox;
+display: none;
+   display: inline-block 
+    position: relative ;
+  font-size: 1em; 
+  border-radius: 3px; 
+  cursor: pointer 
+  -webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+background: rgba(255, 65, 54, 0.1);
+content: "";
+width:17px;
+height: 17px;
+display: inline-block;
+background: none;
+border: 3px solid #FF4136; 
+border-radius: 50%;
+position: absolute;
+left: 17px;
+top: 4px;
+border-radius: 3px;
+padding: 5px 15px;
+background: #FF4136;
+border-radius: 2px;
+color: #fff;}
+#mc_embed_signup input[type=radio]{-webkit-appearance: radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; 
+  background-color: #aaa; 
+  border: 0 none; 
+  border-radius:4px; 
+  transition: all 0.23s ease-in-out 0s; 
+  color: #FFFFFF; cursor: pointer; 
+  display: inline-block; 
+  font-size:15px; 
+  font-weight: normal; 
+  height: 32px;
+ line-height: 32px;
+  margin: 0 5px 10px 0; 
+  padding: 0 22px; 
   text-align: center;
-@media screen and (max-width: 850px) {
-    font-size: 2em;
-}    
-@media screen and (max-width: 550px) {
-    font-size: 1.5em;
-    float: left;
-}
+   text-decoration: none; 
+   vertical-align: top; 
+   white-space: nowrap; 
+   width: auto;
+ }
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+
+#mc_embed_signup .mc-field-group {clear:left;
+ position:relative; 
+ width:96%; 
+ padding-bottom:3%; 
+ min-height:50px;}
+#mc_embed_signup .size1of2 {clear:none; 
+  float:left; 
+  display:inline-block; 
+  width:46%; 
+  margin-right:4%;}
+* html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup .mc-field-group label {display:block;
+ margin-bottom:3px;}
+#mc_embed_signup .mc-field-group input {display:block; 
+  width:100%; 
+  padding:8px 0; 
+  text-indent:2%;}
+#mc_embed_signup .mc-field-group select {display:inline-block;
+ width:99%; 
+ padding:5px 0; 
+ margin-bottom:2px;}
+
+#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
+#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input{display:inline;
+ width:60px; 
+ margin:0 2px;
+  letter-spacing:1px;
+   text-align:center;
+    padding:5px 0 2px 0;}
+#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px;}
+#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label{display:none;}
+
+#mc_embed_signup .indicates-required {text-align:right;
+ font-size:11px;
+  margin-right:4%;}
+#mc_embed_signup .asterisk {color:#e85c41; 
+  font-size:150%; 
+  font-weight:normal; 
+  position:relative; top:5px;}     
+#mc_embed_signup .clear {clear:both;}
+
+#mc_embed_signup .mc-field-group.input-group ul {margin:0; 
+  padding:5px 0;
+   list-style:none;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:block;
+ padding:3px 0; 
+ margin:0;}
+#mc_embed_signup .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup .mc-field-group.input-group input {display:inline; 
+  width:auto;
+   border:none;}
+
+#mc_embed_signup div#mce-responses {float:left; 
+  top:-1.4em; 
+  padding:0em .5em 0em .5em; 
+  overflow:hidden; 
+  width:90%; 
+  margin: 0 5%; 
+  clear: both;}
+#mc_embed_signup div.response {margin:1em 0; 
+  padding:1em .5em .5em 0;
+   font-weight:bold; 
+   float:left; 
+   top:-1.5em; 
+   z-index:1; 
+   width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214;
+ display:none;}
+#mc_embed_signup label.error {display:block;
+ float:none;
+  width:auto; 
+  margin-left:1.05em; 
+  text-align:left;
+   padding:.5em 0;}
+
+#mc-embedded-subscribe {clear:both; 
+  width:auto; 
+  display:block; 
+  margin:1em 0 1em 5%;}
+#mc_embed_signup #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #num-subscribers span {padding:.5em;
+ border:1px solid #ccc;
+  margin-right:.5em;
+   font-weight:bold;}
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; 
+  margin:2px 0 1em 0; 
+  padding:5px 10px; 
+  background-color:rgba(255,255,255,0.85); 
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px;
+   border-radius: 3px; 
+   font-size:14px; 
+   font-weight:normal; 
+   z-index:1;
+    color:#e85c41;}
+#checkbox #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
 }
 
-.mc_form {
-    margin-top: 150px;
-}  
-/********** 1) Load of TITLE *************
-.loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: #ff9f63;
-}
-/********** 1) Load of TITLE *************
+#checkbox .input-group input[type="checkbox"]{display: none;}
+ 
+#checkbox .input-group .checkbox label {color:#FF4136; /*color letra */
+  padding: 5px 15px 5px 51px ;/*Tamaño fondo*/
+    display: inline-block ;/* Para poder selecionar*/
+    position: relative /* Posición*/;
+  font-size: 1em; /* Tanaño respecto a body*/
+  border-radius: 3px; /* Borde redondeado*/
+  cursor: pointer /* Cursor tipo enlance*/;
+  -webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;
+  transition: all 0.3s ease;} /*Transisión*/
 
-//********** 2) simple "from > to" */
-@keyframes move {
-  from {
-      bottom: 0%
-  }
-  to {
-      top: 100%
-  }
-}
+  #checkbox .checkbox label:hover {background: rgba(255, 65, 54, 0.1);} /
+#checkbox.checkbox label:before{content: "";
+width:17px;
+height: 17px;
+display: inline-block;
+background: none;
+border: 3px solid #FF4136; 
+border-radius: 50%;
+position: absolute;
+left: 17px;
+top: 4px;}  
 
-/* assign animation to ball element */
-.mc_from {
-  animation: move 10s ;
-}
+#checkbox .checkbox label:before {border-radius: 3px;}
 
+#checkbox input[type="checkbox"]:checked + label {padding: 5px 15px;
+background: #FF4136;
+border-radius: 2px;
+color: #fff;}
+
+#checkbox input[type="checkbox"]:checked + label:before {display: none}
